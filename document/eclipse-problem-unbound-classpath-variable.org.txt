@@ -1,3 +1,12 @@
+# -*- coding: utf-8-unix; mode: org; -*-
+#+OPTIONS: ^:nil
+#+TITLE: Unbound classpath variable M2\_REPO
+#+AUTHOR: tempest200903
+#+DATE: 2015-09-14
+#+DESCRIPTION: Unbound classpath variable M2_REPO
+#+KEYWORDS: Eclipse, Maven
+#+LANGUAGE: ja
+
 * eclipse-problem-unbound-classpath-variable
 ** 現象
 - Unbound classpath variable: 'M2_REPO/au/com/bytecode/opencsv/2.4/opencsv-2.4.jar' in project 'xxxx'
@@ -7,4 +16,4 @@
   mvn -Declipse.workspace="your Eclipse Workspace" eclipse:configure-workspace
   #+END_EXAMPLE
 ** 参考
-- http://www.mkyong.com/maven/how-to-configure-m2_repo-variable-in-eclipse-ide/
+- http://www.mkyong.com/maven/how-to-configure-m2%5Frepo-variable-in-eclipse-ide/
