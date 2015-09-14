@@ -1,0 +1,10 @@
+* eclipse-problem-unbound-classpath-variable
+** 現象
+- Unbound classpath variable: 'M2_REPO/au/com/bytecode/opencsv/2.4/opencsv-2.4.jar' in project 'xxxx'
+** 解決方法
+- 以下のコマンドを実行する。
+  #+BEGIN_EXAMPLE
+  mvn -Declipse.workspace="your Eclipse Workspace" eclipse:configure-workspace
+  #+END_EXAMPLE
+** 参考
+- http://www.mkyong.com/maven/how-to-configure-m2_repo-variable-in-eclipse-ide/
